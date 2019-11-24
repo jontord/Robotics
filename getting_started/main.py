@@ -13,10 +13,8 @@ motor_a = Motor(Port.A)
 
 brick.sound.beep()
 wait(1000)
-brick.sound.beep(800, 1000)
-wait(1000)
-
 motor_a.run_target(500, 720) #500 degrees per second, 90 target angle
+wait(1000)
 brick.sound.beep(1000, 500) #frequency, duration
 
 
